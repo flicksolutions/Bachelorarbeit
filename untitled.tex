@@ -1,0 +1,8 @@
+\paragraph{Anpassung der Überzeugungen}
+Ausgehend von einer Theorie $T_i$ wird die Menge der Überzeugungen $C_i$ wie folgt angepasst:
+\begin{enumerate}
+    \item \label{c1} Alle Sätze des Themas $S$ werden einzeln zu der Menge von Überzeugungen in $C_i$ hinzugefügt, falls sie noch nicht enthalten sind. Falls sie aber enthalten sind, wird die Negation des Satzes hinzugefügt. Die Menge der daraus entstandenen Mengen von Überzeugungen heisst $C_i^*$.
+    \item \label{c2} Die Mengen, die entstehen, wenn man einzelne Überzeugungen aus $C_i$ entfernt, werden zu $C_i^*$ hinzugefügt.
+    \item \label{c3} Die Untermengen von $C_i^*$ werden mittels Achievement-Funktion $Z$ überprüft.
+    \item \label{c4}Die Menge von Überzeugungen, welche den höchsten Wert bei $Z$ erreicht, wird zu $C_{i+1}$ erklärt, falls ihr $Z$-Wert auch grösser ist als jener von $C_1$ - Ansonsten wird $C_1$ zu $C_{i+1}$.
+\end{enumerate}
